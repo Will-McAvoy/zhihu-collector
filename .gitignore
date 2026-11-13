@@ -1,0 +1,43 @@
+# Personal data, authentication, output and temporary profiles
+/data/
+/logs/
+/归档/
+/文档/
+/.qa/
+/.pytest-runtime/
+/pytest-of-*/
+/pip-*/
+**/zhihu_storage_state*.json
+**/*storage_state*.json
+*.db
+*.db-*
+*.sqlite*
+*.jsonl
+*.log
+/output/
+/exports/
+runtime-cache/
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+*.spec.bak
+
+# Local editor settings
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
